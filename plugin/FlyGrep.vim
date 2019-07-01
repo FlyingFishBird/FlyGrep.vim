@@ -37,4 +37,8 @@ let g:FlyGrep_enable_statusline = 1
 " Set FlyGrep default command prompt
 let g:spacevim_commandline_prompt = '➭'
 
+""
+" set FlyGrep debug level
+let g:spacevim_debug_level = 1
+
 command! -nargs=0 FlyGrep call FlyGrep#open({})
